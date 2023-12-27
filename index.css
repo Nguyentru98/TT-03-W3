@@ -17,4 +17,17 @@
     background-color: rgba(163, 151, 151, 0.5);
     cursor: pointer;
   }
-  
+  .toggle {
+    display: block;
+  }
+  .menulist {
+    animation: slideToLeft 1s ease-in-out ;
+  }
+  @keyframes slideToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
