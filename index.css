@@ -8,14 +8,17 @@
     outline: none;
     letter-spacing: 1px;
   }
+  .bgcab {
+    background-color: rgba(17, 57, 235, 0.2);
+    color: #fff;
+  }
+  .crh:hover {
+    color: rgb(179, 7, 7);
+  }
   .back-to-top {
-    width: 50px;
-    height: 50px;
-    position: fixed;
     right: 1%;
     bottom: 5%;
     background-color: rgba(163, 151, 151, 0.5);
-    cursor: pointer;
   }
   .toggle {
     display: block;
